@@ -565,6 +565,16 @@
                        "side":  "both",
                        "onConflict":  "overwrite",
                        "note":  "242 файлов: config/, скрипты, ганпаки"
+                   },
+                   {
+                       "kind":  "zip",
+                       "path":  ".",
+                       "sha256":  "288b42d1b7e6deccbeae1a0acc3d6c34981a593735660b4c6883fba86adffe1a",
+                       "size":  2193,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/288b42d1b7e6deccbeae1a0acc3d6c34981a593735660b4c6883fba86adffe1a.zip",
+                       "side":  "both",
+                       "onConflict":  "keep",
+                       "note":  "options.txt и личные настройки: ставятся только если файла нет"
                    }
                ],
     "optional":  [

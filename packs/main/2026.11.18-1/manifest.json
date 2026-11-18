@@ -268,12 +268,22 @@
                    {
                        "kind":  "zip",
                        "path":  ".",
-                       "sha256":  "a2288ba1e0a2bee4f5ea80b6ea889dfe5b82ea70a503effe43d71b8ce52e41b5",
-                       "size":  15226316,
-                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/a2288ba1e0a2bee4f5ea80b6ea889dfe5b82ea70a503effe43d71b8ce52e41b5.zip",
+                       "sha256":  "bd3279ebc92452da62810926bbbbc807e506cbc155b8448273693405a0f7010a",
+                       "size":  15236201,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/bd3279ebc92452da62810926bbbbc807e506cbc155b8448273693405a0f7010a.zip",
                        "side":  "both",
                        "onConflict":  "overwrite",
-                       "note":  "203 файлов: config/, скрипты, ганпаки"
+                       "note":  "218 файлов: config/, скрипты, ганпаки"
+                   },
+                   {
+                       "kind":  "zip",
+                       "path":  ".",
+                       "sha256":  "522c0b9dada39e488460278d883a61b1eed72de641e84193731b2c3e30128e17",
+                       "size":  2855,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/522c0b9dada39e488460278d883a61b1eed72de641e84193731b2c3e30128e17.zip",
+                       "side":  "both",
+                       "onConflict":  "keep",
+                       "note":  "options.txt и личные настройки: ставятся только если файла нет"
                    }
                ],
     "optional":  [
