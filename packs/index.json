@@ -1,11 +1,11 @@
 {
     "schema":  1,
-    "updatedAt":  "2026-11-18T18:02:52Z",
+    "updatedAt":  "2026-11-18T19:13:13Z",
     "packs":  [
                   {
                       "id":  "main",
                       "name":  "Основная",
-                      "description":  "Та, на которой играем: оружие, техника, Lost Cities, 29 модов",
+                      "description":  "Пвп сборка на 1.20.1",
                       "version":  "2026.11.18-1",
                       "manifest":  "packs/main/2026.11.18-1/manifest.json",
                       "minLauncher":  "0.1.0",
@@ -13,8 +13,8 @@
                   },
                   {
                       "id":  "legacy",
-                      "name":  "1.12.2 Tech",
-                      "description":  "AE2, Mekanism, IC2, NTM Extended, квесты FTBQuests, 66 модов",
+                      "name":  "Ehbs 1.12.2",
+                      "description":  "Тяжёлая техно сборка основанная на HBM, Ae2 и других",
                       "version":  "2026.11.18-1",
                       "manifest":  "packs/legacy/2026.11.18-1/manifest.json",
                       "minLauncher":  "0.1.0",
