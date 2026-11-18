@@ -1,0 +1,283 @@
+{
+    "schema":  1,
+    "id":  "main",
+    "name":  "Основная",
+    "version":  "2026.11.18-1",
+    "mc":  "1.20.1",
+    "loader":  {
+                   "type":  "forge",
+                   "version":  "47.4.18"
+               },
+    "java":  {
+                 "major":  17,
+                 "args":  [
+                              "-XX:+UseG1GC",
+                              "-XX:+ParallelRefProcEnabled",
+                              "-XX:MaxGCPauseMillis=200",
+                              "-XX:+UnlockExperimentalVMOptions",
+                              "-XX:+DisableExplicitGC",
+                              "-XX:G1NewSizePercent=30",
+                              "-XX:G1MaxNewSizePercent=40",
+                              "-XX:G1HeapRegionSize=8M",
+                              "-XX:G1ReservePercent=20",
+                              "-Dfile.encoding=UTF-8"
+                          ]
+             },
+    "memory":  {
+                   "minMb":  4096,
+                   "defaultMb":  6144,
+                   "maxMb":  12288
+               },
+    "server":  {
+                   "host":  "nasral.sahur.win",
+                   "port":  25565
+               },
+    "layers":  [
+                   {
+                       "kind":  "file",
+                       "path":  "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+                       "sha256":  "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426",
+                       "size":  47428,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ashvehicle-1.20.1-4.6-8.9.jar",
+                       "sha256":  "8d2c84729e891c0f77620c7e38f11f36e5a423aa6d8c42e12839461ba30e9e7f",
+                       "size":  18695193,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/8d2c84729e891c0f77620c7e38f11f36e5a423aa6d8c42e12839461ba30e9e7f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/banitems-1.0.3.jar",
+                       "sha256":  "764f0af6922144dca5f3442fd1b4041980bb0016d6d3228c4eea17a6729910d4",
+                       "size":  44645,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/764f0af6922144dca5f3442fd1b4041980bb0016d6d3228c4eea17a6729910d4.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/BetterF3-7.0.2-Forge-1.20.1.jar",
+                       "sha256":  "e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0",
+                       "size":  468517,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/cloth-config-11.1.136-forge.jar",
+                       "sha256":  "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+                       "size":  1181413,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/collective-1.20.1-8.39.jar",
+                       "sha256":  "594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb",
+                       "size":  745947,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/594bc5d40f2a3fec1ad95732524f65e01a27ac2abeb9d59889cd9f01fd8db6cb.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/curios-forge-5.14.1+1.20.1.jar",
+                       "sha256":  "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f",
+                       "size":  398066,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/CustomSkinLoader_Universal-15.0.1.jar",
+                       "sha256":  "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc",
+                       "size":  218215,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/DistantHorizons-3.2.0-b-1.20.1-fabric-forge.jar",
+                       "sha256":  "27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302",
+                       "size":  29561297,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/27cc6df2189e142671e4174ad7b2d773318b1b871758ec27756538947052a302.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Explosion-Overhaul-0.2.3.0-forge-.jar",
+                       "sha256":  "feac2ed262604f01e74609acdeba83c9b0bbe2b602ba0da40196fb1041f2c64f",
+                       "size":  84444256,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/feac2ed262604f01e74609acdeba83c9b0bbe2b602ba0da40196fb1041f2c64f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/fcp-1.2.1.jar",
+                       "sha256":  "bf28ec2b31f3ffe18b7af0622d761775b99fab884882fcdb59c99ba77857c424",
+                       "size":  56127403,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/bf28ec2b31f3ffe18b7af0622d761775b99fab884882fcdb59c99ba77857c424.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/fullbrightnesstoggle-1.20.1-4.4.jar",
+                       "sha256":  "942f2f3f48e1566bdb70b524dfabbb8478e0beb2347e2b0bd0a2f800bbe1743e",
+                       "size":  29563,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/942f2f3f48e1566bdb70b524dfabbb8478e0beb2347e2b0bd0a2f800bbe1743e.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/geckolib-forge-1.20.1-4.8.4.jar",
+                       "sha256":  "4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b",
+                       "size":  1038209,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/4518779a31b6c2abb92c98b5ad17ef3d60177df68626bfc86c44de2764913c2b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/jei-1.20.1-forge-15.49.0.200.jar",
+                       "sha256":  "f61f8964725aa72a0d4affeb32184c642fd0e5807b73bd1495269f33d50a316b",
+                       "size":  1674153,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/f61f8964725aa72a0d4affeb32184c642fd0e5807b73bd1495269f33d50a316b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/journeymap-forge-1.20.1-6.0.3.jar",
+                       "sha256":  "7784bfb1f2e606bbcf6fb3a3813e4d099ed5e7952861b161942f37b7c1667913",
+                       "size":  4328419,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/7784bfb1f2e606bbcf6fb3a3813e4d099ed5e7952861b161942f37b7c1667913.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/kotlinforforge-4.12.0-all.jar",
+                       "sha256":  "6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae",
+                       "size":  7442998,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6a66c6a68ec09f8717cdbf06883394f0ee24d7cd826b7134a0f81839e8e720ae.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/lostcities-1.20-7.5.2.jar",
+                       "sha256":  "ce7ff93c300d6e590fcb62de6101b8b9a23f307f0372b49cb999883484bff820",
+                       "size":  1402158,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/ce7ff93c300d6e590fcb62de6101b8b9a23f307f0372b49cb999883484bff820.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+                       "sha256":  "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08",
+                       "size":  76237,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ok_zoomer-forge-5.4.0-beta.9.jar",
+                       "sha256":  "b07bfb5673832577789b6c2ab160b5d80e0ef73ef229717ebbcea174fbdc36a7",
+                       "size":  530268,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/b07bfb5673832577789b6c2ab160b5d80e0ef73ef229717ebbcea174fbdc36a7.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/rubidium-mc1.20.1-0.7.1.jar",
+                       "sha256":  "f281204c19d7ef1eb8ca6181146ac828e87fcfdde7053facaabf71d9ded35c85",
+                       "size":  704856,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/f281204c19d7ef1eb8ca6181146ac828e87fcfdde7053facaabf71d9ded35c85.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/snassets_particles-1.0.1.jar",
+                       "sha256":  "4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca",
+                       "size":  575663,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/4b43ef096628cfdd33884180ca4d70d69d0077b742c854368d4e5803e8ae6dca.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/superb_extras-1.1.0.jar",
+                       "sha256":  "3fe2324a2f2cd18b20d0b7f0860b5ecbb754458f17a2e4848fe7933741463a43",
+                       "size":  139938,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/3fe2324a2f2cd18b20d0b7f0860b5ecbb754458f17a2e4848fe7933741463a43.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/superbwarfare-0.8.9-final-mc1.20.1-6effe4385-all.jar",
+                       "sha256":  "6eece0df9c927bddee3bd373fe90a2bbcba7157e9408ee0f94d13e04dc638395",
+                       "size":  31691008,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6eece0df9c927bddee3bd373fe90a2bbcba7157e9408ee0f94d13e04dc638395.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/sw-addon-1.1.0.jar",
+                       "sha256":  "49210030da438e0433c1984c2ff1599847c66810a1f2fa5068885e404e69dcb6",
+                       "size":  171142,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/49210030da438e0433c1984c2ff1599847c66810a1f2fa5068885e404e69dcb6.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/tacz_extras-1.20.1-1.1.1.jar",
+                       "sha256":  "89f4a356809d33821afe757305fecf1f1fd258e2223ddebdf63c586a0af6dcef",
+                       "size":  442730,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/89f4a356809d33821afe757305fecf1f1fd258e2223ddebdf63c586a0af6dcef.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/tacz-1.20.1-1.1.8-hotfix.jar",
+                       "sha256":  "9ed8ada1283ed7a793a70cc1b51c4a340f367ce84707e1a7b8cf21ee3d288d77",
+                       "size":  57465167,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/9ed8ada1283ed7a793a70cc1b51c4a340f367ce84707e1a7b8cf21ee3d288d77.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/vvp-alpha-beta-1.20.1-0.2.1.jar",
+                       "sha256":  "97812efe94b661d2dc2c17dd599c2f05609c8d53744657d084f67ebbd07ad5e5",
+                       "size":  26689077,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/97812efe94b661d2dc2c17dd599c2f05609c8d53744657d084f67ebbd07ad5e5.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/worldedit-mod-7.2.15.jar",
+                       "sha256":  "17db6b3e94f52d25426684663e1e1846823cbb7907f1c365ac329e5bc7bfaf2c",
+                       "size":  5825402,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/17db6b3e94f52d25426684663e1e1846823cbb7907f1c365ac329e5bc7bfaf2c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/xaeroworldmap-forge-1.20.1-1.45.0.jar",
+                       "sha256":  "747e2f3c203f8c294887fe400184ad48c02df008e1d69ad7f7d01809853a7ba2",
+                       "size":  1424881,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/747e2f3c203f8c294887fe400184ad48c02df008e1d69ad7f7d01809853a7ba2.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "zip",
+                       "path":  ".",
+                       "sha256":  "a2288ba1e0a2bee4f5ea80b6ea889dfe5b82ea70a503effe43d71b8ce52e41b5",
+                       "size":  15226316,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/a2288ba1e0a2bee4f5ea80b6ea889dfe5b82ea70a503effe43d71b8ce52e41b5.zip",
+                       "side":  "both",
+                       "onConflict":  "overwrite",
+                       "note":  "203 файлов: config/, скрипты, ганпаки"
+                   }
+               ],
+    "optional":  [
+
+                 ],
+    "notes":  "Собрано из живого профиля. Версии модов зафиксированы по sha256."
+}

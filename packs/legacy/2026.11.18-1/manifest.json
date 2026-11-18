@@ -1,0 +1,574 @@
+{
+    "schema":  1,
+    "id":  "legacy",
+    "name":  "1.12.2 Tech",
+    "version":  "2026.11.18-1",
+    "mc":  "1.12.2",
+    "loader":  {
+                   "type":  "forge",
+                   "version":  "14.23.5.2864"
+               },
+    "java":  {
+                 "major":  8,
+                 "args":  [
+                              "-XX:+UseConcMarkSweepGC",
+                              "-XX:+CMSParallelRemarkEnabled",
+                              "-XX:MaxMetaspaceSize=512m",
+                              "-XX:+DisableExplicitGC",
+                              "-Dfile.encoding=UTF-8"
+                          ]
+             },
+    "memory":  {
+                   "minMb":  4096,
+                   "defaultMb":  6144,
+                   "maxMb":  10240
+               },
+    "server":  {
+                   "host":  "nasral.sahur.win",
+                   "port":  25565
+               },
+    "layers":  [
+                   {
+                       "kind":  "file",
+                       "path":  "mods/!configanytime-3.0.jar",
+                       "sha256":  "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575",
+                       "size":  5201,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/!mixinbooter-10.7.jar",
+                       "sha256":  "8bb53080aede2d2b1e1c5f713bbf49a38f20add8caa3d52fabcdf8a536b55a18",
+                       "size":  2383999,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/8bb53080aede2d2b1e1c5f713bbf49a38f20add8caa3d52fabcdf8a536b55a18.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/_NTM-Extended-1.12.2-3.0.3.jar",
+                       "sha256":  "5896489ee26e53fa38d99e443ba4b88c6ea9a22b59832b5f29bd83b500f4354c",
+                       "size":  61014705,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/5896489ee26e53fa38d99e443ba4b88c6ea9a22b59832b5f29bd83b500f4354c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/`FermiumBooter-1.4.1.jar",
+                       "sha256":  "acbf49a2ace819b775e648c079634fc0a6c8a54cdf1bc2098eb0dd8f011afe6b",
+                       "size":  1931503,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/acbf49a2ace819b775e648c079634fc0a6c8a54cdf1bc2098eb0dd8f011afe6b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/AdditionalEnchantedMiner-1.12.2-12.5.7.jar",
+                       "sha256":  "9f058a429de6b36b2446d2a5eb722f2084afc8b474b547a45eac1a8614b9ad43",
+                       "size":  2101518,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/9f058a429de6b36b2446d2a5eb722f2084afc8b474b547a45eac1a8614b9ad43.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ae2stuff-0.7.0.4-mc1.12.2.jar",
+                       "sha256":  "123038d365611d0b074f2d1a100962198c72a8386b0b56e09395b4070ff4190f",
+                       "size":  513374,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/123038d365611d0b074f2d1a100962198c72a8386b0b56e09395b4070ff4190f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/AE2WTLib-1.12.2-1.0.34.jar",
+                       "sha256":  "6d0ec545bf94e6142b4140f910aae4114b1f92298e820c12fa91af35a3c90d60",
+                       "size":  243622,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6d0ec545bf94e6142b4140f910aae4114b1f92298e820c12fa91af35a3c90d60.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/AEAdditions-1.12.2-1.3.8.jar",
+                       "sha256":  "4e319c732bea20d08315b4789e9d66c25f875feb1d4e8e8e4281991ee4ffcab8",
+                       "size":  2473304,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/4e319c732bea20d08315b4789e9d66c25f875feb1d4e8e8e4281991ee4ffcab8.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/AppleSkin-mc1.12-1.0.14.jar",
+                       "sha256":  "4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e",
+                       "size":  33683,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/4bbd37edecff0b420ab0eea166b5d7b4b41a9870bfb8647bf243140dc57f101e.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/appliedenergistics2-rv6-stable-7.jar",
+                       "sha256":  "e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a",
+                       "size":  4062630,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e7f7fbf6caaf6206dbd958fb8f9185f874a405289e62ae3e97209b455a89fb1a.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Aroma1997Core-1.12.2-2.0.0.2.jar",
+                       "sha256":  "75cc65a0b352d8d44e30fd20c6a7811c9bc42ca2ddca75f79a955675960b58a8",
+                       "size":  398634,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/75cc65a0b352d8d44e30fd20c6a7811c9bc42ca2ddca75f79a955675960b58a8.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
+                       "sha256":  "2056f814cb25a05d3d01a5b346c76ae4277a77ecaa83ad44eef94f202a739090",
+                       "size":  80736,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/2056f814cb25a05d3d01a5b346c76ae4277a77ecaa83ad44eef94f202a739090.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Avaritia-1.12.2-3.3.0.37-universal.jar",
+                       "sha256":  "e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876",
+                       "size":  975727,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e37b89bf89d5cb75d0605cf03863537b7e52a73e2ff6fb033161989c43d33876.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Avaritiaddons-1.12.2-1.9.jar",
+                       "sha256":  "7792247b7d8ef330d08d9900b78a8b0f1ee3344359ee5954cd3c2e25201aa187",
+                       "size":  253753,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/7792247b7d8ef330d08d9900b78a8b0f1ee3344359ee5954cd3c2e25201aa187.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/avaritiarecipemaker-1.0.0.jar",
+                       "sha256":  "c29ea6749e9148579e6d467e0b211ee90909bda4859b55137c7cbf2cb2dc0287",
+                       "size":  40986,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/c29ea6749e9148579e6d467e0b211ee90909bda4859b55137c7cbf2cb2dc0287.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/bdlib-1.14.4.1-mc1.12.2.jar",
+                       "sha256":  "b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045",
+                       "size":  2313893,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/b385f1a6f3f908673324ef03ed15b6bb5f588ce2e36443acc7273a6263cca045.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+                       "sha256":  "f10e9db9cee878032dd674068bc12e6b871d88b83360e7d6ff207023dea7beed",
+                       "size":  75709,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/f10e9db9cee878032dd674068bc12e6b871d88b83360e7d6ff207023dea7beed.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+                       "sha256":  "7f26e2cad131d3cb79296b0309dbde4f361b34c7f602d9575aecff893bb04d76",
+                       "size":  827900,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/7f26e2cad131d3cb79296b0309dbde4f361b34c7f602d9575aecff893bb04d76.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ChickenChunks-1.12.2-2.4.2.74-universal.jar",
+                       "sha256":  "62c3224d41e24b9ac04661e3d5240bf50b85349e43fd25e30bb2078c152d212f",
+                       "size":  134367,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/62c3224d41e24b9ac04661e3d5240bf50b85349e43fd25e30bb2078c152d212f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+                       "sha256":  "5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74",
+                       "size":  704330,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/5f8499f7ee2590e45110bbf296b2bf101aec15897e28d5e9759cf8f2387d8a74.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/CosmeticArmorReworked-1.12.2-v5a.jar",
+                       "sha256":  "a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8",
+                       "size":  72111,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/a1dac96cf2168015255f4cad8748e8b969e99bd0919e9cb78deb9198ee9753e8.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/CraftTweaker2-1.12-4.1.20.711.jar",
+                       "sha256":  "dc11a0cb527019385a732907a8057ecd673cdf6bf56d4b5358693e3c2e572a82",
+                       "size":  1608673,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/dc11a0cb527019385a732907a8057ecd673cdf6bf56d4b5358693e3c2e572a82.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Cucumber-1.12.2-1.1.3.jar",
+                       "sha256":  "0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5",
+                       "size":  126699,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/0475ba0f0964c4a56afd1c2765b7063849ca2b77a91d80d7f612fb15354c27e5.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/CustomSkinLoader_ForgeV1-14.28.jar",
+                       "sha256":  "e43409dcc9476629a0295d1662c79dcf106f43e4d943cefd75d8e6feebc3362d",
+                       "size":  199551,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e43409dcc9476629a0295d1662c79dcf106f43e4d943cefd75d8e6feebc3362d.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/denseneutroncollectors-1.1.jar",
+                       "sha256":  "882528e1943f7f672fcf271eb9de382025ce3948adf1407243b8011e7c725b90",
+                       "size":  77583,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/882528e1943f7f672fcf271eb9de382025ce3948adf1407243b8011e7c725b90.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+                       "sha256":  "1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff",
+                       "size":  5708839,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/1eecdefa00056efac98ff56e25f7ed840b70e2d809c628e38c9c5b5518ff14ff.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/EnderCore-1.12.2-0.5.78.jar",
+                       "sha256":  "adbd309f6c8001c38c4630aa701cdc5ea59fa7ee9ffa770e21f56b160adb443c",
+                       "size":  660062,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/adbd309f6c8001c38c4630aa701cdc5ea59fa7ee9ffa770e21f56b160adb443c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/EnderIO-1.12.2-5.3.72.jar",
+                       "sha256":  "9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4",
+                       "size":  8946588,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/fermiumasm-5.31.jar",
+                       "sha256":  "338a6c6aca9b6434a9eeb7870a7f0aa83275e430cd331e3681fa2fc56b157b63",
+                       "size":  530358,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/338a6c6aca9b6434a9eeb7870a7f0aa83275e430cd331e3681fa2fc56b157b63.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Forgelin-1.8.4.jar",
+                       "sha256":  "ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197",
+                       "size":  6278399,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/ccfcad80ef73ab815875a91979128ed58c262c479c7c0e5da65b225954bee197.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/FTBBackups-1.1.0.1.jar",
+                       "sha256":  "6b6bcbbf6ac4528657345e1696339528a44643ecb06e6137908eafb8432bd962",
+                       "size":  43764,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6b6bcbbf6ac4528657345e1696339528a44643ecb06e6137908eafb8432bd962.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/FTBLib-5.4.7.2.jar",
+                       "sha256":  "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac",
+                       "size":  934370,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/FTBQuests-1202.9.0.15.jar",
+                       "sha256":  "3f6a674ac0d8678fd0b127e6930199f32848fe47d1689e44c72976bfb24c7385",
+                       "size":  1091954,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/3f6a674ac0d8678fd0b127e6930199f32848fe47d1689e44c72976bfb24c7385.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/FTBUtilities-5.4.1.131.jar",
+                       "sha256":  "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a",
+                       "size":  425832,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Hwyla-1.8.26-B41_1.12.2.jar",
+                       "sha256":  "e9ddecd4920ee9a57e11e4b43fb1dd395bbf37e276be726a99a2590272304124",
+                       "size":  453778,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e9ddecd4920ee9a57e11e4b43fb1dd395bbf37e276be726a99a2590272304124.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ImmersiveEngineering-0.12-98.jar",
+                       "sha256":  "1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58",
+                       "size":  6360959,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/industrialcraft-2-2.8.170-ex112.jar",
+                       "sha256":  "5e65adf95ae29d9b93f2e0bfeaee9433706ce0bffd7970da515540ddb912b147",
+                       "size":  8356436,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/5e65adf95ae29d9b93f2e0bfeaee9433706ce0bffd7970da515540ddb912b147.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/InGameAccountSwitcher-Forge-1.12-8.0.1.jar",
+                       "sha256":  "51fc269a97f9cb02270087d0debb1a753e54b74095ab659c133ab26089872a91",
+                       "size":  192582,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/51fc269a97f9cb02270087d0debb1a753e54b74095ab659c133ab26089872a91.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/InventoryTweaks-1.63.jar",
+                       "sha256":  "ef2fdcb59f9a766ee5c3c4c514c78f0a9e35b3d6bf02c17051b7dd4e94efdf7a",
+                       "size":  263258,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/ef2fdcb59f9a766ee5c3c4c514c78f0a9e35b3d6bf02c17051b7dd4e94efdf7a.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/ItemFilters-1.0.4.2.jar",
+                       "sha256":  "cdffbb810f75db50afce9681374f0604e4c1ed2dcfe768cff5b4e17d5384166b",
+                       "size":  78935,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/cdffbb810f75db50afce9681374f0604e4c1ed2dcfe768cff5b4e17d5384166b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/jei_1.12.2-4.16.1.301.jar",
+                       "sha256":  "dad60317d8fdf891ad7841abf838564ea7cbd317ec85d92f57dcb8f55602124b",
+                       "size":  653211,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/dad60317d8fdf891ad7841abf838564ea7cbd317ec85d92f57dcb8f55602124b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/Mekanism-1.12.2-9.8.3.390.jar",
+                       "sha256":  "17573e0c3b2ff9d071a719a06a84c8cd89ca26d1ea3bd7f6e9f3842c4df88ea1",
+                       "size":  7863657,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/17573e0c3b2ff9d071a719a06a84c8cd89ca26d1ea3bd7f6e9f3842c4df88ea1.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MekanismGenerators-1.12.2-9.8.3.390.jar",
+                       "sha256":  "2bc1f1b8601abd40180eab9666e34a947d1be9e9b878ffd788d4b44e7713313c",
+                       "size":  336364,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/2bc1f1b8601abd40180eab9666e34a947d1be9e9b878ffd788d4b44e7713313c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/mekanismtweaks-1.1.jar",
+                       "sha256":  "7021d033a5e13ca19e60c54bcda3c92d9985ad3ce71cc2ef093d34de128c9b6b",
+                       "size":  975744,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/7021d033a5e13ca19e60c54bcda3c92d9985ad3ce71cc2ef093d34de128c9b6b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MouseTweaks-2.10-mc1.12.2.jar",
+                       "sha256":  "77969c0e7f76c078ebb7004642e86746d57f47b7a46237fcb1c06d4a55679448",
+                       "size":  75170,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/77969c0e7f76c078ebb7004642e86746d57f47b7a46237fcb1c06d4a55679448.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MysticalAgradditions-1.12.2-1.3.2.jar",
+                       "sha256":  "58094bdace050ce943bc4b14033abc63e91e705233fc24c2d7f8d786c714884f",
+                       "size":  134055,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/58094bdace050ce943bc4b14033abc63e91e705233fc24c2d7f8d786c714884f.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MysticalAgriculture-1.12.2-1.7.5.jar",
+                       "sha256":  "e84a70bbcb5dc559d28c7bc65f1ef1af512485097ad89c6748249b173019975c",
+                       "size":  1536124,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e84a70bbcb5dc559d28c7bc65f1ef1af512485097ad89c6748249b173019975c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/MysticalAgriexpansion-1.12.2-0.4.jar",
+                       "sha256":  "a5646ca64516ab7230e703fd369ec66d0303692dc33f07d18989a96602330ff1",
+                       "size":  403871,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/a5646ca64516ab7230e703fd369ec66d0303692dc33f07d18989a96602330ff1.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/OptiFine_1.12.2_HD_U_G5.jar",
+                       "sha256":  "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e",
+                       "size":  2669107,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/OreExcavation-1.4.150.jar",
+                       "sha256":  "535c5a8e2d708fa810687698425f982f16c326c0cc91fa5eec08194d65ef2c28",
+                       "size":  184743,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/535c5a8e2d708fa810687698425f982f16c326c0cc91fa5eec08194d65ef2c28.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/p455w0rdslib-1.12.2-2.3.161.jar",
+                       "sha256":  "e5844c044d9f2ce2f23eef84d95eea8cc1f2c5581874bd01410e7d103b90a424",
+                       "size":  328793,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e5844c044d9f2ce2f23eef84d95eea8cc1f2c5581874bd01410e7d103b90a424.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/PacketFixer-forge-2.1.0-1.12.2.jar",
+                       "sha256":  "57b2fb8608605cc6307c215892087db43ef8ee1b1dc9d1207984b7b34b1da4d1",
+                       "size":  15287,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/57b2fb8608605cc6307c215892087db43ef8ee1b1dc9d1207984b7b34b1da4d1.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/randompatches-1.12.2-1.22.1.10.jar",
+                       "sha256":  "c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b",
+                       "size":  293231,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/c6d836b4d14223999afcd9df143076a5a709ff2009d6604382c346d1a258284b.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+                       "sha256":  "6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280",
+                       "size":  31802,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6ff7f96d076bfaad83fb6ba92ec457b8a76391439663b0cc32a9ec5398345280.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/spark-unforged-1.11.1-forge.jar",
+                       "sha256":  "63237b43a8569e020b8c57621884fc7e0259edb9cc3f848161ebfb7315a0f013",
+                       "size":  3499622,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/63237b43a8569e020b8c57621884fc7e0259edb9cc3f848161ebfb7315a0f013.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/u_team_core-forge-1.12.2-2.2.5.375.jar",
+                       "sha256":  "92d27852bd081fc9cd2d95172cbf4473fa697653f6236bb3f5779eef60960ad4",
+                       "size":  346211,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/92d27852bd081fc9cd2d95172cbf4473fa697653f6236bb3f5779eef60960ad4.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/UniversalTweaks-1.12.2-1.19.1.jar",
+                       "sha256":  "d931fd608878c7173bc2b808889f8887470de3325645ef7b3fe6d643db5fbf9a",
+                       "size":  1885737,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/d931fd608878c7173bc2b808889f8887470de3325645ef7b3fe6d643db5fbf9a.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/useful_backpacks-1.12.2-1.5.4.85.jar",
+                       "sha256":  "ff231e76e4f5263cdb5b6aa825fb428c72fc6d39841ff9a19736a163e025e448",
+                       "size":  63394,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/ff231e76e4f5263cdb5b6aa825fb428c72fc6d39841ff9a19736a163e025e448.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/WailaHarvestability-mc1.12-1.1.12.jar",
+                       "sha256":  "f445cdccfe824a895ace7cb83d29cfb17d5b3c3383949298e44c2da8697237f0",
+                       "size":  31462,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/f445cdccfe824a895ace7cb83d29cfb17d5b3c3383949298e44c2da8697237f0.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/WanionLib-1.12.2-2.91.jar",
+                       "sha256":  "6dbb4140af8171d07752abfe225d6ad0a6981b4dc143b53d78fed4ea0ea3f00c",
+                       "size":  223035,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6dbb4140af8171d07752abfe225d6ad0a6981b4dc143b53d78fed4ea0ea3f00c.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/WirelessCraftingTerminal-1.12.2-3.12.97.jar",
+                       "sha256":  "69e5b82f33925169e33456a5f6b3202917c06fc34f1f32f71cf553b0733f0114",
+                       "size":  242030,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/69e5b82f33925169e33456a5f6b3202917c06fc34f1f32f71cf553b0733f0114.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/wi-zoom-v1.1-MC1.12.2-release.jar",
+                       "sha256":  "b2a6b45a3634c9ac38d3a69179b18ad16288d22bc0c6ed49d267730582611916",
+                       "size":  1357889,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/b2a6b45a3634c9ac38d3a69179b18ad16288d22bc0c6ed49d267730582611916.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
+                       "sha256":  "cd4768ded9e2b527e3fc093fdf4ce07f058187de7961bdc0d7fa821c1b756f75",
+                       "size":  1479535,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/cd4768ded9e2b527e3fc093fdf4ce07f058187de7961bdc0d7fa821c1b756f75.jar",
+                       "side":  "both"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/xaerolib-forge-1.12.2-1.1.0.jar",
+                       "sha256":  "777127ce764ec4ea096ba5245609994de4c6290db2b5cf7d41d3ce17a6662767",
+                       "size":  597314,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/777127ce764ec4ea096ba5245609994de4c6290db2b5cf7d41d3ce17a6662767.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/xaerominimap-forge-1.12.2-25.3.10.jar",
+                       "sha256":  "e9c09bbddd8c2d27f383975ee60b93a4153e1e976479d94b78c62b4db7a94930",
+                       "size":  1992435,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/e9c09bbddd8c2d27f383975ee60b93a4153e1e976479d94b78c62b4db7a94930.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "file",
+                       "path":  "mods/xaeroworldmap-forge-1.12.2-1.40.11.jar",
+                       "sha256":  "6e282b58d60be6990f5b2a412220618606ba2ad2409ed962f3c68e223ccc09ed",
+                       "size":  924187,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6e282b58d60be6990f5b2a412220618606ba2ad2409ed962f3c68e223ccc09ed.jar",
+                       "side":  "client"
+                   },
+                   {
+                       "kind":  "zip",
+                       "path":  ".",
+                       "sha256":  "6f62add81ed5ce4b2b4c28e940c95611a8b916dce281bb9051d7c028ae3d4411",
+                       "size":  1081979,
+                       "url":  "https://github.com/Pizdab/goida-craft/releases/download/blobs/6f62add81ed5ce4b2b4c28e940c95611a8b916dce281bb9051d7c028ae3d4411.zip",
+                       "side":  "both",
+                       "onConflict":  "overwrite",
+                       "note":  "242 файлов: config/, скрипты, ганпаки"
+                   }
+               ],
+    "optional":  [
+
+                 ],
+    "notes":  "Собрано из живого профиля. Версии модов зафиксированы по sha256."
+}
